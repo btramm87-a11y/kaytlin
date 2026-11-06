@@ -3,39 +3,86 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#f6f7f2">
-  <title>Kaytlin — Make room for your day</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <meta name="theme-color" content="#f8f5f0">
+  <meta name="description" content="Stella turns one audio or video source into a clear, evidence-led trend report for review.">
+  <title>Stella — Audio & Video Trend Scout</title>
   <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
 </head>
-<body class="landing-page">
-  <header class="topbar landing-topbar"><a class="brand" href="index.html"><span class="brand-mark">k</span> kaytlin</a><a class="top-link" href="workbench.html">Open your space <span aria-hidden="true">↗</span></a></header>
-  <main>
-    <section class="hero wrap">
+<body>
+  <header class="site-header wrap">
+    <a class="brand" href="#top" aria-label="Stella home"><span class="brand-mark" aria-hidden="true">✳</span><span>stella<small> AUDIO & VIDEO TREND SCOUT</small></span></a>
+    <nav aria-label="Main navigation">
+      <a href="#process">Process</a>
+      <a href="#standards">Standards</a>
+      <a class="nav-cta" href="#demo">View sample ↓</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <div class="notice wrap"><span class="status-dot"></span><strong>STATIC SHOWCASE</strong><span>Sample content only · no uploads, external links, or API calls</span></div>
+
+    <section class="hero wrap" aria-labelledby="hero-title">
       <div class="hero-copy">
-        <span class="eyebrow"><span class="live-dot"></span> A softer way to stay on track</span>
-        <h1>Make room for<br><em>your kind of day.</em></h1>
-        <p class="hero-text">A calm little corner for your plans, small wins, and everything you want to remember. Meet Kaytlin, your personal day companion.</p>
-        <a class="button button-dark" href="workbench.html">Step into Kaytlin <span aria-hidden="true">→</span></a>
-        <div class="hero-note"><span class="avatar-stack"><i>✿</i><i>☼</i><i>♡</i></span><span>Built for real life, one day at a time</span></div>
+        <p class="eyebrow"><span></span> A clearer signal in the noise</p>
+        <h1 id="hero-title">Hear the signal.<br><em>See what’s moving.</em></h1>
+        <p class="hero-text">Stella turns one audio or video source into a concise trend brief, grounded in evidence and ready for your review.</p>
+        <a class="button primary-button" href="#process">Explore the workflow <span aria-hidden="true">↘</span></a>
+        <p class="hero-footnote">One source at a time. No claims about the whole market.</p>
       </div>
-      <div class="hero-art" aria-label="Illustration of a calm day planner">
-        <div class="sun-orb"></div><div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
-        <div class="art-caption caption-top">a little more<br>breathing room</div><div class="art-caption caption-bottom">today can be<br>simple ✳</div>
-        <div class="planner-card"><div class="planner-head"><span>YOUR DAY, GENTLY</span><span>✦</span></div><div class="planner-date">Wednesday <b>06</b></div><div class="planner-line"><span class="tiny-check">✓</span><span>Water the balcony herbs</span><span>9:00</span></div><div class="planner-line"><span class="tiny-check empty"></span><span>Focus hour</span><span>11:30</span></div><div class="planner-line"><span class="tiny-check empty"></span><span>Call someone you love</span><span>4:00</span></div><div class="planner-footer"><span>3 small things are enough</span><span>♡</span></div></div>
-        <div class="floating flower">✿</div><div class="floating sparkle">✦</div><div class="floating leaf">❋</div>
+      <div class="signal-card" aria-label="Illustration of an audio trend report">
+        <div class="signal-card-top"><span>STELLA / SIGNAL NOTE 01</span><span class="badge">SAMPLE</span></div>
+        <div class="waveform" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+        <p class="card-kicker">DEMO SOURCE · PODCAST</p>
+        <h2>Everyday reuse, made easy</h2>
+        <div class="meta-row"><span>18 min</span><span>English</span><span>Illustrative</span></div>
+        <div class="signal-item"><span class="signal-index">01</span><span>Check the source and scope</span><span class="signal-mark">↗</span></div>
+        <div class="signal-item"><span class="signal-index">02</span><span>Find evidence and timestamps</span><span class="signal-mark">↗</span></div>
+        <div class="signal-item"><span class="signal-index">03</span><span>Draft a brief for review</span><span class="signal-mark">↗</span></div>
+        <div class="card-foot"><span>Source-bound analysis</span><span>✳</span></div>
       </div>
     </section>
-    <section class="intro-strip"><div class="wrap strip-inner"><span>PLAN</span><i>✳</i><span>NOTICE</span><i>✳</i><span>GROW</span><i>✳</i><span>BEGIN AGAIN</span></div></section>
-    <section class="features wrap"><div class="section-heading"><span class="eyebrow">YOUR SPACE, YOUR PACE</span><h2>Less juggling.<br><em>More being here.</em></h2></div><div class="feature-grid">
-      <article class="feature-card feature-moss"><span class="feature-icon">▤</span><h3>Gather your plans</h3><p>Keep tasks, routines, and little reminders in one clear place.</p><span class="feature-number">01</span></article>
-      <article class="feature-card feature-peach"><span class="feature-icon">☼</span><h3>Check in with yourself</h3><p>Give today a feeling, a few words, and the attention it deserves.</p><span class="feature-number">02</span></article>
-      <article class="feature-card feature-lilac"><span class="feature-icon">↗</span><h3>Make space to grow</h3><p>Turn a bigger hope into small steps that feel possible.</p><span class="feature-number">03</span></article>
-    </div></section>
-    <section class="closing wrap"><div><span class="eyebrow">YOUR NEXT CHAPTER STARTS SMALL</span><h2>What would feel good<br>to get done today?</h2></div><a class="button button-light" href="workbench.html">Make it a little clearer <span aria-hidden="true">→</span></a></section>
+
+    <div class="ticker" aria-label="Stella principles"><div class="ticker-inner"><span>ONE SOURCE</span><b>✳</b><span>VISIBLE EVIDENCE</span><b>✳</b><span>USER REVIEW</span><b>✳</b><span>HONEST BOUNDARIES</span><b>✳</b></div></div>
+
+    <section class="process wrap section" id="process">
+      <div class="section-intro"><p class="eyebrow">01 / THE PROCESS</p><h2>From source to<br><em>signal brief.</em></h2><p>Each run follows a small, traceable path. The public page illustrates the process with sample data.</p></div>
+      <div class="process-list">
+        <article class="process-step"><span class="step-no">01</span><div><h3>Check source & scope</h3><p>Confirm the supplied source, topic, time window, and access limits. Ask when an essential detail is missing.</p></div><span class="step-icon">⌕</span></article>
+        <article class="process-step"><span class="step-no">02</span><div><h3>Capture the content</h3><p>Transcribe or review the selected segment, keeping meaningful timestamps and noting unclear passages.</p></div><span class="step-icon">≋</span></article>
+        <article class="process-step"><span class="step-no">03</span><div><h3>Weigh evidence</h3><p>Separate source facts from interpretation. Look for repeated themes, concrete examples, and counter-signals.</p></div><span class="step-icon">⌁</span></article>
+        <article class="process-step"><span class="step-no">04</span><div><h3>Draft for review</h3><p>Prepare a concise report with evidence, timestamps, confidence, and open questions before anything is saved.</p></div><span class="step-icon">↗</span></article>
+      </div>
+    </section>
+
+    <section class="standards section" id="standards">
+      <div class="wrap standards-inner">
+        <div class="section-intro"><p class="eyebrow">02 / QUALITY & BOUNDARIES</p><h2>Useful, because<br><em>it shows its work.</em></h2></div>
+        <div class="standard-grid">
+          <article><span class="standard-icon">A</span><h3>Evidence first</h3><p>Connect each trend observation to a timestamp, quotation, or example from the supplied source.</p></article>
+          <article><span class="standard-icon">B</span><h3>One source at a time</h3><p>Describe patterns in the material provided. Do not present one source as proof of a global trend.</p></article>
+          <article><span class="standard-icon">C</span><h3>Mark uncertainty</h3><p>Flag low audio quality, unclear wording, missing context, and conclusions that need checking.</p></article>
+          <article><span class="standard-icon">D</span><h3>Review before saving</h3><p>Return the draft for the user to check. Save or share it only when the user asks and access is available.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="demo wrap section" id="demo">
+      <div class="demo-heading"><div><p class="eyebrow">03 / INTERACTIVE SAMPLE</p><h2>A report, <em>at a glance.</em></h2></div><button class="button sample-button" id="show-sample" type="button" aria-expanded="false" aria-controls="sample-report">Reveal sample report <span aria-hidden="true">＋</span></button></div>
+      <div class="demo-card" id="sample-report" hidden>
+        <div class="demo-card-head"><span class="badge">PRELOADED SAMPLE</span><span>Illustrative source · 18:04</span></div>
+        <h3>Reusable packaging moves from niche to routine</h3>
+        <p class="demo-summary">The sample source frames reuse as a practical everyday choice, emphasizing convenience, clear return points, and familiar routines.</p>
+        <div class="evidence-row"><span class="timecode">04:12</span><p><b>Convenience is the hook.</b> The speaker links repeat use to an easy return process. <small>Sample paraphrase · verify against source</small></p></div>
+        <div class="evidence-row"><span class="timecode">11:36</span><p><b>Routine beats novelty.</b> Reuse is described as more attractive when it fits an existing habit. <small>Sample paraphrase · verify against source</small></p></div>
+        <div class="demo-tags"><span>Confidence: illustrative</span><span>Source scope: one sample</span><span>Needs human review</span></div>
+      </div>
+      <p class="demo-disclaimer">This interaction reveals fixed sample text. It does not analyze media, fetch a link, or contact an AI service.</p>
+    </section>
+
+    <section class="closing wrap"><div><p class="eyebrow">A TRANSPARENT CONCEPT</p><h2>Clear signals.<br>Honest limits.</h2><p>Stella’s public showcase is a static prototype. Real source analysis requires a connected Agent and authorized access.</p></div><a href="#top" class="button closing-button">Back to top <span aria-hidden="true">↑</span></a></section>
   </main>
-  <footer class="footer wrap"><a class="brand" href="index.html"><span class="brand-mark">k</span> kaytlin</a><span>A gentle space, made for you.</span><span>© Kaytlin</span></footer>
+
+  <footer class="site-footer wrap"><a class="brand" href="#top"><span class="brand-mark" aria-hidden="true">✳</span><span>stella<small>AUDIO & VIDEO TREND SCOUT</small></span></a><span>Static concept demo · sample data only</span><span>© Stella</span></footer>
 </body>
 </html>

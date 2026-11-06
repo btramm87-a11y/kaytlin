@@ -1,13 +1,15 @@
-# Kaytlin
+# Stella — Audio & Video Trend Scout
 
-A responsive personal day companion website.
+Stella is a static English-language showcase for a proposed source-based trend reporting Agent. The interactive demo reveals fixed sample text only; this website does not accept uploads or URLs and does not connect to AI, Hermes, Lark, or external APIs.
 
-## Publish with GitHub Pages
+## Files
 
-1. Upload all files in this folder to the root of a GitHub repository.
-2. Commit and push the changes to `main`.
-3. In the repository, open **Settings → Pages**.
-4. Under **Build and deployment**, choose **Deploy from a branch**, select `main` and `/ (root)`, then save.
-5. Open the Pages URL after deployment and review the landing page and dashboard.
+- `index.html` — landing page, process, standards, and sample report
+- `style.css` — responsive visual design
+- `app.js` — sample-report reveal interaction only
+- `AGENT-PROFILE.md` — proposed Agent scope and behavior
+- `WORKFLOW.md` — seven-step closed-loop workflow and decision cases
+- `USAGE-GUIDE.md` — usage instructions and current limits
+- `PROJECT-REPORT.md` — project summary for reporting
 
-The website is static. Planner data is stored in the visitor's current browser.
+Open `index.html` in a browser to view the showcase.
