@@ -1,8 +1,8 @@
-# Stella — Usage Guide
+# trieuvy23 vs stella — Usage Guide
 
 ## Public showcase
 
-1. Open the Stella page.
+1. Open the trieuvy23 vs stella page.
 2. Review the four-step process and the quality standards.
 3. Select **Reveal sample report** to see fixed illustrative content.
 4. Treat the sample as a layout demonstration, not as a real analysis.

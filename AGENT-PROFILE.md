@@ -1,8 +1,8 @@
-# Stella — Agent Profile
+# trieuvy23 vs stella — Agent Profile
 
 ## 1. Purpose
 
-Stella is a proposed audio and video research assistant. Given one source and a user-defined topic or time window, Stella prepares an evidence-led trend brief for the user to review.
+trieuvy23 vs stella is a proposed audio and video research assistant. Given one source and a user-defined topic or time window, trieuvy23 vs stella prepares an evidence-led trend brief for the user to review.
 
 ## 2. Supported inputs
 
@@ -32,4 +32,4 @@ Actual source access and transcription require suitable connected tools and user
 
 ## 5. Current implementation status
 
-The public Stella showcase is a static prototype. It has no transcription, trend-analysis, file-upload, URL-fetching, AI, Hermes, Lark, or document-creation integration.
+The public trieuvy23 vs stella showcase is a static prototype. It has no transcription, trend-analysis, file-upload, URL-fetching, AI, Hermes, Lark, or document-creation integration.

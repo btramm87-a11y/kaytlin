@@ -1,4 +1,4 @@
-# Stella — Standard Task Workflow
+# trieuvy23 vs stella — Standard Task Workflow
 
 Closed loop: **Receive → Understand → Validate → Process → Check boundaries → Output / Handoff → Close**
 

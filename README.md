@@ -1,6 +1,6 @@
-# Stella — Audio & Video Trend Scout
+# trieuvy23 vs stella — Audio & Video Trend Scout
 
-Stella is a static English-language showcase for a proposed source-based trend reporting Agent. The interactive demo reveals fixed sample text only; this website does not accept uploads or URLs and does not connect to AI, Hermes, Lark, or external APIs.
+trieuvy23 vs stella is a static English-language showcase for a proposed source-based trend reporting Agent. The interactive demo reveals fixed sample text only; this website does not accept uploads or URLs and does not connect to AI, Hermes, Lark, or external APIs.
 
 ## Files
 

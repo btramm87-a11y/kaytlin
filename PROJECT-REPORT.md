@@ -1,16 +1,16 @@
-# Stella — Project Report
+# trieuvy23 vs stella — Project Report
 
 ## 1. Goal
 
-Present Stella as a clear, evidence-led audio and video trend reporting Agent concept through an English-language responsive website.
+Present trieuvy23 vs stella as a clear, evidence-led audio and video trend reporting Agent concept through an English-language responsive website.
 
 ## 2. Product concept
 
-Stella reviews one authorized source per run and drafts a concise report with source evidence, timestamps, uncertainty, and next steps for user review.
+trieuvy23 vs stella reviews one authorized source per run and drafts a concise report with source evidence, timestamps, uncertainty, and next steps for user review.
 
 ## 3. Work completed
 
-1. Reviewed the San Trend reference and defined a distinct Stella identity.
+1. Reviewed the San Trend reference and defined a distinct trieuvy23 vs stella identity.
 2. Built an English landing page with process, standards, and scope sections.
 3. Added an interactive panel that reveals a preloaded illustrative report.
 4. Wrote the Agent profile, seven-step workflow, usage guide, and project report.
